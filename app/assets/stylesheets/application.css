@@ -23,12 +23,31 @@
   height: 50px;
 }
 
+.brands-img {
+  width: 100%;
+}
+
 .btn {
   background-color: #673e81 !important;
 }
 
 .btn:hover {
   opacity: 80%;
+}
+
+.clientesBC {
+  padding: 40px 0 30px;
+  background-color: #673e81;
+
+}
+
+.container h2 {
+  margin: 30px 0 10px;
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: white;
+  float: right;
 }
 
 .crop {
@@ -39,7 +58,6 @@
 .form {
   padding: 5%;
   font-family: 'Nunito Sans', sans-serif;
-
 }
 
 .heading {
@@ -81,7 +99,7 @@
 }
 
 #first-img {
-  margin-top: 35px;
+  margin-top: 25px;
   width: 100%;
 }
 
@@ -94,5 +112,5 @@
 
 #second-img {
   height: 100%;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
 }

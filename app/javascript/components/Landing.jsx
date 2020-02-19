@@ -27,8 +27,8 @@ export default () => (
       </div>
     </div>
 
-    <div class="video">
-      <h1 class="video-text">Como Funciona</h1>
+    <div className="video">
+      <h1 className="video-text">Como Funciona</h1>
       <iframe width="640" height="360" src="https://www.youtube.com/embed/YIbRs-XZBjU"></iframe>
     </div>
 
@@ -38,25 +38,25 @@ export default () => (
           <h1 id="main">Cadastre-se e saiba mais o que é o Bomcupom!</h1>
         </div>
         <form className="col-md-6 form">
-          <div class="form-group">
-            <input type="text" class="form-control" id="inputName" placeholder="Nome" required/>
+          <div className="form-group">
+            <input type="text" className="form-control" id="inputName" placeholder="Nome" required/>
           </div>
           <br/>
-          <div class="form-group">
-            <input type="email" class="form-control" id="inputEmail" placeholder="Email" required/>
+          <div className="form-group">
+            <input type="email" className="form-control" id="inputEmail" placeholder="Email" required/>
           </div>
           <br/>
-          <div class="form-group">
-            <input type="password" class="form-control" id="inputPassword" placeholder="Senha" required/>
+          <div className="form-group">
+            <input type="password" className="form-control" id="inputPassword" placeholder="Senha" required/>
           </div>
           <br/>
-          <div class="form-group">
+          <div className="form-group">
             <label for="inputBirthday">Data de nascimento:</label>
-            <input type="date" class="form-control" id="inputBirthday" required/>
+            <input type="date" className="form-control" id="inputBirthday" required/>
           </div>
           <br/>
-          <div class="form-group">
-            <select id="inputState" class="form-control">
+          <div className="form-group">
+            <select id="inputState" className="form-control">
               <option selected>Sexo...</option>
               <option>feminino</option>
               <option>masculino</option>
@@ -64,8 +64,16 @@ export default () => (
             </select>
           </div>
           <br/>
-          <button type="submit" class="btn btn-primary btn-block">Cadastre-se</button>
+          <button type="submit" className="btn btn-primary btn-block">Cadastre-se</button>
         </form>
+      </div>
+    </div>
+
+    <div className="clientesBC">
+      <div className="container">
+        <div>
+          <img className="brands-img" src="https://www.bomcupom.com/wp-content/themes/bomcupom-novo/assets/images/marcas-c.png" alt=""/>
+        </div>
       </div>
     </div>
 
