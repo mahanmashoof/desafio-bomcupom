@@ -23,6 +23,14 @@
   height: 50px;
 }
 
+.btn {
+  background-color: #673e81 !important;
+}
+
+.btn:hover {
+  opacity: 80%;
+}
+
 .crop {
   height: 500px;
   overflow: hidden;
@@ -30,6 +38,8 @@
 
 .form {
   padding: 5%;
+  font-family: 'Nunito Sans', sans-serif;
+
 }
 
 .heading {
@@ -64,7 +74,7 @@
 
 .video-text {
   margin-bottom: 3%;
-  color: #f9af38;
+  color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: 600;

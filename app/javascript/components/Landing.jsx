@@ -16,7 +16,7 @@ export default () => (
           <img id="first-img" src="https://www.bomcupom.com/wp-content/themes/bomcupom-novo/assets/images/iconesnovos/bomcupomnotinhamao.png" alt=""/>
         </div>
         <div className="col-md-4 heading-text">
-          <h1 id="main">Cupons de de$conto no seu Celular! </h1>
+          <h1 id="main">Cupons de de$conto no seu Celular!</h1>
         </div>
         <div className="col-md-4 heading-img">
           <img id="second-img" src="https://www.hwy55.com/sites/default/files/scan.png" alt=""/>
@@ -32,36 +32,41 @@ export default () => (
       <iframe width="640" height="360" src="https://www.youtube.com/embed/YIbRs-XZBjU"></iframe>
     </div>
 
-    <div className="form">
-      <form>
-        <div class="form-group">
-          <input type="text" class="form-control" id="inputName" placeholder="Nome"/>
+    <div className="container">
+      <div className="row">
+        <div className="col-md-6 heading-text">
+          <h1 id="main">Cadastre-se e saiba mais o que é o Bomcupom!</h1>
         </div>
-        <br/>
-        <div class="form-group">
-          <input type="email" class="form-control" id="inputEmail" placeholder="email"/>
-        </div>
-        <br/>
-        <div class="form-group">
-          <input type="password" class="form-control" id="inputPassword" placeholder="senha"/>
-        </div>
-        <br/>
-        <div class="form-group">
-          <label for="inputBirthday">Data de nascimento:</label>
-          <input type="date" class="form-control" id="inputBirthday"/>
-        </div>
-        <br/>
-        <div class="form-group">
-          <select id="inputState" class="form-control">
-            <option selected>sexo...</option>
-            <option>feminino</option>
-            <option>masculino</option>
-            <option>terceiro</option>
-          </select>
-        </div>
-        <br/>
-        <button type="submit" class="btn-lg btn-primary">Sign in</button>
-      </form>
+        <form className="col-md-6 form">
+          <div class="form-group">
+            <input type="text" class="form-control" id="inputName" placeholder="Nome" required/>
+          </div>
+          <br/>
+          <div class="form-group">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email" required/>
+          </div>
+          <br/>
+          <div class="form-group">
+            <input type="password" class="form-control" id="inputPassword" placeholder="Senha" required/>
+          </div>
+          <br/>
+          <div class="form-group">
+            <label for="inputBirthday">Data de nascimento:</label>
+            <input type="date" class="form-control" id="inputBirthday" required/>
+          </div>
+          <br/>
+          <div class="form-group">
+            <select id="inputState" class="form-control">
+              <option selected>Sexo...</option>
+              <option>feminino</option>
+              <option>masculino</option>
+              <option>terceiro</option>
+            </select>
+          </div>
+          <br/>
+          <button type="submit" class="btn btn-primary btn-block">Cadastre-se</button>
+        </form>
+      </div>
     </div>
 
   </div>
