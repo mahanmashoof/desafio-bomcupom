@@ -1,0 +1,66 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600,700|Nunito+Sans:300&display=swap');
+
+.crop {
+  height: 500px;
+  overflow: hidden;
+}
+
+.heading-img {
+  text-align: center;
+}
+
+.heading-text {
+  color: #673e81;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.navbar {
+  background-color: #f7f4f9;
+}
+
+.navbar-brand {
+  margin-left: 55px;
+}
+
+.video {
+  text-align: center;
+  width: 100%;
+  padding: 3% 0;
+  background-color: #673e81;
+}
+
+.video-text {
+  margin-bottom: 3%;
+}
+
+#first-img {
+  margin-top: 35px;
+  width: 100%;
+}
+
+#main {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 200%;
+}
+
+#second-img {
+  width: 80%;
+}
