@@ -22,14 +22,14 @@ export default () => (
           <img id="second-img" src="https://www.hwy55.com/sites/default/files/scan.png" alt=""/>
         </div>
       </div>
-      <div className="arrow">
+      <div className="arrow hidden-sm">
         <img className="arrow-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS-zLUuIdfGIBDZLCFF-20bvNI8wnhIz5k_Eabmd4CYDhYbsymn" alt=""/>
       </div>
     </div>
 
     <div className="video">
       <h1 className="video-text">Como Funciona</h1>
-      <iframe width="640" height="360" src="https://www.youtube.com/embed/YIbRs-XZBjU"></iframe>
+      <iframe className="video-img" src="https://www.youtube.com/embed/YIbRs-XZBjU"></iframe>
     </div>
 
     <div className="container">
