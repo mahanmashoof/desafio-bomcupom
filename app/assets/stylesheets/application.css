@@ -15,13 +15,30 @@
  */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,600,700|Nunito+Sans:300&display=swap');
 
+.arrow {
+  text-align: center;
+}
+
+.arrow-img {
+  height: 50px;
+}
+
 .crop {
   height: 500px;
   overflow: hidden;
 }
 
+.form {
+  padding: 5%;
+}
+
+.heading {
+  min-height: 100vh;
+}
+
 .heading-img {
   text-align: center;
+  height: 480px;
 }
 
 .heading-text {
@@ -41,12 +58,16 @@
 .video {
   text-align: center;
   width: 100%;
-  padding: 3% 0;
+  padding: 5% 0;
   background-color: #673e81;
 }
 
 .video-text {
   margin-bottom: 3%;
+  color: #f9af38;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 #first-img {
@@ -62,5 +83,6 @@
 }
 
 #second-img {
-  width: 80%;
+  height: 100%;
+  margin-top: 10px;
 }
